@@ -16,6 +16,7 @@
 		89C4ABAA20B806D7007527B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4ABA920B806D7007527B9 /* main.m */; };
 		89C4ABB420B806D7007527B9 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4ABB320B806D7007527B9 /* ____Tests.m */; };
 		89C4ABBF20B806D7007527B9 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4ABBE20B806D7007527B9 /* ____UITests.m */; };
+		89C4ABCE20B80715007527B9 /* UIImageView+WaterImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4ABCD20B80715007527B9 /* UIImageView+WaterImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		89C4ABBA20B806D7007527B9 /* 水印图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "水印图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C4ABBE20B806D7007527B9 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		89C4ABC020B806D7007527B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C4ABCC20B80715007527B9 /* UIImageView+WaterImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WaterImage.h"; sourceTree = "<group>"; };
+		89C4ABCD20B80715007527B9 /* UIImageView+WaterImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WaterImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				89C4AB9820B806D7007527B9 /* AppDelegate.m */,
 				89C4AB9A20B806D7007527B9 /* ViewController.h */,
 				89C4AB9B20B806D7007527B9 /* ViewController.m */,
+				89C4ABCC20B80715007527B9 /* UIImageView+WaterImage.h */,
+				89C4ABCD20B80715007527B9 /* UIImageView+WaterImage.m */,
 				89C4AB9D20B806D7007527B9 /* Main.storyboard */,
 				89C4ABA320B806D7007527B9 /* Assets.xcassets */,
 				89C4ABA520B806D7007527B9 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 				89C4AB9C20B806D7007527B9 /* ViewController.m in Sources */,
 				89C4ABA220B806D7007527B9 /* ____.xcdatamodeld in Sources */,
 				89C4ABAA20B806D7007527B9 /* main.m in Sources */,
+				89C4ABCE20B80715007527B9 /* UIImageView+WaterImage.m in Sources */,
 				89C4AB9920B806D7007527B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,7 +441,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H42Q3R4VZ;
 				INFOPLIST_FILE = "水印图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mac1.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H42Q3R4VZ;
 				INFOPLIST_FILE = "水印图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mac1.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
